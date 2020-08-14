@@ -13,4 +13,12 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
+- task: SqlDacpacDeploymentOnMachineGroup@0
+  inputs:
+    TaskType: 'dacpac'
+    DacpacFile: '**/*.dacpac'
+    TargetMethod: 'server'
+    ServerName: 'LAPTOP-PJT1IPHH'
+    DatabaseName: 'Genesis'
+    AuthScheme: 'windowsAuthentication'
 
