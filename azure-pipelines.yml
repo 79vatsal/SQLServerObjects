@@ -18,7 +18,7 @@ steps:
     TaskType: 'dacpac'
     DacpacFile: '**/*.dacpac'
     TargetMethod: 'server'
-    ServerName: 'LAPTOP-PJT1IPHH'
+    ServerName: 'LAPTOP-PJT1IPHH\SQLEXPRESS'
     DatabaseName: 'Genesis'
     AuthScheme: 'windowsAuthentication'
 
