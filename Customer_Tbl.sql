@@ -1,5 +1,4 @@
-USE [Genesis]
-GO
+
 
 /****** Object:  Table [dbo].[Customer]    Script Date: 8/14/2020 10:53:56 AM ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Customer]') AND type in (N'U'))
