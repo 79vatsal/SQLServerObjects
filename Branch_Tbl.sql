@@ -1,4 +1,3 @@
-
 /****** Object:  Table [dbo].[Branch]    Script Date: 8/17/2020 11:39:52 AM ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Branch]') AND type in (N'U'))
 DROP TABLE [dbo].[Branch]
